@@ -26,8 +26,7 @@ spec:
       securityContext:
         privileged: true
       env:
-        - name: RAM_SIZE
-          value: 1G
+
         - name: CPU_CORES
           value: "1"
         - name: DISK_SIZE
